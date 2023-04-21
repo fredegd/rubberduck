@@ -1,0 +1,241 @@
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+nav {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 60px;
+  background-color: #ffff00;
+  position: fixed;
+  top: 0px;
+  font-size: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  background-color: lightyellow;
+}
+.nav-left {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+}
+
+.nav-left a {
+  height: 100%;
+}
+
+.nav-right {
+  width: 80%;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-right a {
+  border-radius: 10px;
+  background-color: #00ff0033;
+  transition: background-color 1s, border-radius 0.5s;
+}
+
+.nav-right a:hover {
+  color: white;
+  background-color: green;
+  border-radius: 20px;
+}
+.nav-right a:active {
+  color: green;
+  background-color: white;
+}
+.nav-right a {
+  border: 2px solid green;
+  color: green;
+  text-decoration: none;
+  padding: 12px 18px;
+}
+
+#home {
+  /* border: 2px solid orange; */
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  border: 2px solid orange;
+  width: 80%;
+  border-radius: 50px;
+  background: yellow;
+  padding: 10px;
+}
+
+#rubberduck {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rd-container {
+  border: 2px solid yellow;
+  width: 80%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.rd-text {
+  /* border: 2px solid yellow; */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#rubberduck .button {
+  color: green;
+  border: 2px solid green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #00ff0033;
+  transition: background-color 1s, border-radius 0.5s;
+}
+#rubberduck .button:hover {
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+}
+#rubberduck .button:active {
+  background-color: white;
+  color: green;
+}
+
+.duck {
+  height: 60%;
+  transition: height 0.5s;
+}
+.duck:hover {
+  height: 90%;
+}
+
+#emergency {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.emergency-buttons {
+  background: yellow;
+  border: 2px solid red;
+  border-radius: 50px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid-container {
+  /* border: 2px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: auto;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.grid-item {
+  border: 2px solid orange;
+  margin: 8%;
+  border-radius: 10%;
+  background-color: #00ff0033;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1vw;
+  aspect-ratio: 1;
+  transition: background-color 1s, border-radius 0.5s;
+}
+
+.grid-item i{
+  font-size: 3vw;
+}
+
+.grid-item:hover {
+  border: 2px solid orange;
+  background-color: green;
+  margin: 20%;
+  border-radius: 45%;
+  color: white;
+   aspect-ratio: 1;
+}
+
+
+.footer {
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .contact {
+  width: 40%;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact form input {
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contact form textarea {
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.footer .button {
+  background-color: green;
+  width: 10%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.copy{
+  font-size: 1.5vw;
+}
+.copy i{ 
+  font-size: 4vw;
+}
